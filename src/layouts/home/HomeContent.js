@@ -1,9 +1,10 @@
 import React from 'react'
 import PrimaryNavBar from './homeContent/PrimaryNavBar'
 import SecondNavBar from './homeContent/SecondNavBar'
-import OverView from './homeContent/OverView'
+
 import TraficGraphe from './homeContent/TraficGraphe'
 import SocialStatus from './homeContent/SocialStatus'
+import OverViewList from './homeContent/OverViewList'
 
 export default function HomeContent() {
   return (
@@ -13,7 +14,7 @@ export default function HomeContent() {
       {/* <p>Primary nav bar</p> */}
       <SecondNavBar />
       {/* <p>2nd nav bar</p> */}
-      <OverView />
+      <OverViewList />
       {/* <p>List of member online - OverViewList</p> */}
       <TraficGraphe />
       {/* <p>Trafic Graph</p> */}

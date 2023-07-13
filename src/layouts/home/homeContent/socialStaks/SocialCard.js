@@ -1,6 +1,6 @@
 import React from 'react'
-import SocialIon from '../../../../components/SocialIon'
-import StatCard from '../../../../components/StatCard'
+import SocialIon from '../../../../components/socialCard/SocialIon'
+import StatCard from '../../../../components/socialCard/StatCard'
 
 export default function SocialCard() {
     return (

@@ -1,9 +1,10 @@
 import React from 'react';
-import DashbordTitle from '../../components/DashbordTitle';
-import BrandLogo from '../../components/BrandLogo';
+import DashbordTitle from '../../components/leftMenu/DashbordTitle';
+
 import ThemeList from './leftMenu/ThemeList';
 import ComonentsList from './leftMenu/ComonentsList';
 import ExtractList from './leftMenu/ExtractList';
+import BrandLogo from '../../components/leftMenu/BrandLogo';
 
 export default function LeftMenu() {
     return (
@@ -11,15 +12,14 @@ export default function LeftMenu() {
             <h2>Left Menu</h2>
             {/* <h2>Left Menu</h2> */}
             {/* <p>Dashbord</p> */}
-            
-            <BrandLogo/>    
-            <DashbordTitle/>
+            <BrandLogo />
+            <DashbordTitle />
             {/* <p>Theme List</p> */}
-            <ThemeList/>
+            <ThemeList />
             {/* <p>Components List</p> */}
-            <ComonentsList/>
+            <ComonentsList />
             {/* <p>Extract List</p> */}
-            <ExtractList/>
+            <ExtractList />
         </div>
     )
 }
