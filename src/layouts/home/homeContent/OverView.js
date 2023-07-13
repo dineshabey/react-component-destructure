@@ -1,7 +1,10 @@
 import React from 'react'
+import OverViewList from '../OverViewList/OverViewList'
 
 export default function OverView() {
   return (
-    <div>OverView</div>
+    <div>
+        <OverViewList/>
+    </div>
   )
 }
