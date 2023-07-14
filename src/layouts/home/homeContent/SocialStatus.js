@@ -3,11 +3,7 @@ import SocialCard from './socialStaks/SocialCard'
 
 export default function SocialStatus() {
     return (
-        <div style={{backgroundColor:"yellow"}}>
-
-            {/* Fb Card /
-   Twiter Card /
-   Linkedin Card */}
+        <div style={{backgroundColor:"yellow",display:"flex"}}>
             <SocialCard />
             <SocialCard />
             <SocialCard />
