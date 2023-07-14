@@ -8,18 +8,12 @@ import OverViewList from './homeContent/OverViewList'
 
 export default function HomeContent() {
   return (
-    <div>
-      {/* <h2>HomeContent</h2> */}
+    <div style={{backgroundColor:"green",width:"100%"}}>
       <PrimaryNavBar />
-      {/* <p>Primary nav bar</p> */}
       <SecondNavBar />
-      {/* <p>2nd nav bar</p> */}
       <OverViewList />
-      {/* <p>List of member online - OverViewList</p> */}
       <TraficGraphe />
-      {/* <p>Trafic Graph</p> */}
       <SocialStatus />
-      {/* <p>Social Status</p> */}
     </div>
   )
 }
