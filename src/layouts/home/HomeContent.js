@@ -8,7 +8,7 @@ import OverViewList from './homeContent/OverViewList'
 
 export default function HomeContent() {
   return (
-    <div style={{backgroundColor:"green",width:"100%"}}>
+    <div style={{width:"100%"}}>
       <PrimaryNavBar />
       <SecondNavBar />
       <OverViewList />
