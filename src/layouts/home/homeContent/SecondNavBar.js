@@ -4,7 +4,7 @@ import SecondoryNavRight from './secondoryNavBar/SecondoryNavRight'
 
 export default function SecondNavBar() {
     return (
-        <div>
+        <div style={{display:'flex',border:'2px white outset',justifyContent:'space-between'}}>
             <SecondoryNavLeft />
 
             <SecondoryNavRight />
