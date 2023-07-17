@@ -37,7 +37,7 @@ export default function OverViewList() {
     <div style={{ display: "flex", width: '100%', justifyContent: 'space-around' }}>
       {OverViewCardData.map((val, key) => {
         return (
-          <div style={{ padding: '10px',width:'100%' }}><OverViewCard key={key} data={val} /></div>
+          <div style={{ margin: '10px',width:'100%' }}><OverViewCard key={key} data={val} /></div>
         )
       })}
 
